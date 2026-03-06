@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¿Qué es Forrester Studio? — Estudio Tecnológico fundado por Oscar Rafael Pool Pech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Forrester Studio es un estudio tecnológico independiente fundado por Oscar Rafael Pool Pech, enfocado en desarrollo de software, apps móviles, videojuegos y soluciones digitales con inteligencia artificial." />
+  <meta name="keywords" content="Forrester Studio, Oscar Rafael Pool Pech, desarrollo de software, apps móviles, videojuegos, inteligencia artificial, estudio tecnológico, México" />
+  <meta name="author" content="Oscar Rafael Pool Pech" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://forresterstudio.lat/nosotros" />
+
+  <!-- Open Graph (WhatsApp, Facebook, etc.) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Forrester Studio — Estudio Tecnológico Independiente" />
+  <meta property="og:description" content="Estudio de tecnología fundado por Oscar Rafael Pool Pech. Creamos apps, videojuegos, plataformas digitales y herramientas con IA desde Yucatán, México." />
+  <meta property="og:url" content="https://forresterstudio.lat/nosotros" />
+  <meta property="og:site_name" content="Forrester Studio" />
+  <meta property="og:locale" content="es_MX" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Forrester Studio — Estudio Tecnológico Independiente" />
+  <meta name="twitter:description" content="Estudio de tecnología fundado por Oscar Rafael Pool Pech. Apps, videojuegos, IA y plataformas digitales desde México." />
+
+  <!-- JSON-LD Structured Data para Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://forresterstudio.lat/#organization",
+        "name": "Forrester Studio",
+        "alternateName": "Forrester Studio MX",
+        "url": "https://forresterstudio.lat",
+        "description": "Forrester Studio es un proyecto tecnológico independiente enfocado en el desarrollo de software, aplicaciones móviles, videojuegos, plataformas digitales y herramientas con inteligencia artificial.",
+        "foundingDate": "2025",
+        "foundingLocation": {
+          "@type": "Place",
+          "name": "Yucatán, México"
+        },
+        "founder": {
+          "@type": "Person",
+          "@id": "https://forresterstudio.lat/#founder",
+          "name": "Oscar Rafael Pool Pech",
+          "alternateName": "Oscar Rafael",
+          "jobTitle": "Fundador y CEO",
+          "description": "Desarrollador full-stack autodidacta que comenzó a programar a los 12 años. Fundó Forrester Studio en 2025 con la misión de crear tecnología útil, accesible e innovadora.",
+          "worksFor": {
+            "@id": "https://forresterstudio.lat/#organization"
+          },
+          "nationality": "Mexicano",
+          "knowsAbout": ["Desarrollo de software", "Inteligencia Artificial", "React", "Python", "Flutter", "Videojuegos"]
+        },
+        "knowsAbout": [
+          "Desarrollo de software",
+          "Aplicaciones móviles",
+          "Videojuegos",
+          "Inteligencia Artificial",
+          "Plataformas digitales",
+          "Desarrollo web"
+        ],
+        "areaServed": "México",
+        "inLanguage": "es"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://forresterstudio.lat/nosotros",
+        "url": "https://forresterstudio.lat/nosotros",
+        "name": "¿Quiénes somos? — Forrester Studio",
+        "description": "Conoce Forrester Studio: un estudio tecnológico independiente fundado por Oscar Rafael Pool Pech en 2025 desde Yucatán, México.",
+        "about": {
+          "@id": "https://forresterstudio.lat/#organization"
+        },
+        "inLanguage": "es"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #0a0a0a;
+      --paper: #f2ede6;
+      --accent: #c8ff00;
+      --rust: #e84d1c;
+      --muted: #7a7570;
+      --line: #2a2a2a;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--ink);
+      color: var(--paper);
+      font-family: 'Space Mono', monospace;
+      overflow-x: hidden;
+      cursor: none;
+    }
+
+    /* Custom cursor */
+    .cursor {
+      position: fixed;
+      width: 12px; height: 12px;
+      background: var(--accent);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 9999;
+      transform: translate(-50%, -50%);
+      transition: transform 0.1s ease;
+      mix-blend-mode: difference;
+    }
+    .cursor-ring {
+      position: fixed;
+      width: 40px; height: 40px;
+      border: 1px solid var(--accent);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 9998;
+      transform: translate(-50%, -50%);
+      transition: all 0.15s ease;
+      mix-blend-mode: difference;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: var(--ink); }
+    ::-webkit-scrollbar-thumb { background: var(--accent); }
+
+    /* HEADER */
+    header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 48px;
+      mix-blend-mode: difference;
+    }
+
+    .logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 22px;
+      letter-spacing: 4px;
+      color: var(--paper);
+      text-decoration: none;
+    }
+
+    .header-tag {
+      font-size: 10px;
+      letter-spacing: 3px;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 120px 48px 80px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-eyebrow {
+      font-size: 10px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 32px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .hero-eyebrow::before {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    .hero-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(80px, 10vw, 160px);
+      line-height: 0.88;
+      letter-spacing: -2px;
+      color: var(--paper);
+    }
+
+    .hero-title em {
+      font-family: 'DM Serif Display', serif;
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .hero-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 120px 48px 80px 24px;
+      position: relative;
+    }
+
+    .hero-desc {
+      font-size: 13px;
+      line-height: 1.9;
+      color: var(--muted);
+      max-width: 340px;
+      margin-bottom: 48px;
+    }
+
+    .hero-year {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 200px;
+      color: transparent;
+      -webkit-text-stroke: 1px rgba(255,255,255,0.06);
+      position: absolute;
+      bottom: -20px;
+      right: -20px;
+      line-height: 1;
+      user-select: none;
+      pointer-events: none;
+    }
+
+    /* DIVIDER LINE */
+    .section-divider {
+      border: none;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      margin: 0 48px;
+    }
+
+    /* MANIFESTO SECTION */
+    .manifesto {
+      padding: 120px 48px;
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 80px;
+      position: relative;
+    }
+
+    .manifesto-label {
+      font-size: 10px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--muted);
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      transform: rotate(180deg);
+      height: fit-content;
+      margin-top: 8px;
+    }
+
+    .manifesto-content {
+      display: flex;
+      flex-direction: column;
+      gap: 64px;
+    }
+
+    .manifesto-headline {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(36px, 4vw, 64px);
+      line-height: 1.15;
+      color: var(--paper);
+    }
+
+    .manifesto-headline strong {
+      font-family: 'DM Serif Display', serif;
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .manifesto-body {
+      font-size: 13px;
+      line-height: 2;
+      color: var(--muted);
+      max-width: 600px;
+      border-left: 2px solid var(--rust);
+      padding-left: 32px;
+    }
+
+    /* PILLARS */
+    .pillars {
+      padding: 0 48px 120px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .pillar {
+      padding: 60px 40px;
+      border-right: 1px solid rgba(255,255,255,0.08);
+      position: relative;
+      overflow: hidden;
+      transition: background 0.4s ease;
+    }
+
+    .pillar:last-child { border-right: none; }
+
+    .pillar::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 3px;
+      background: var(--accent);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s ease;
+    }
+
+    .pillar:hover::before { transform: scaleX(1); }
+    .pillar:hover { background: rgba(200,255,0,0.03); }
+
+    .pillar-num {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 72px;
+      color: transparent;
+      -webkit-text-stroke: 1px rgba(255,255,255,0.12);
+      line-height: 1;
+      margin-bottom: 24px;
+      transition: -webkit-text-stroke-color 0.4s ease;
+    }
+
+    .pillar:hover .pillar-num {
+      -webkit-text-stroke-color: var(--accent);
+    }
+
+    .pillar-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 28px;
+      letter-spacing: 2px;
+      color: var(--paper);
+      margin-bottom: 16px;
+    }
+
+    .pillar-text {
+      font-size: 12px;
+      line-height: 1.9;
+      color: var(--muted);
+    }
+
+    /* ORIGIN STORY */
+    .origin {
+      background: var(--paper);
+      color: var(--ink);
+      padding: 120px 48px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .origin-noise {
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+
+    .origin-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .origin-left {}
+
+    .origin-tag {
+      font-size: 10px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 48px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .origin-tag::before {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 1px;
+      background: var(--muted);
+    }
+
+    .origin-big {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(60px, 8vw, 110px);
+      line-height: 0.9;
+      color: var(--ink);
+      margin-bottom: 48px;
+    }
+
+    .origin-big span {
+      display: block;
+      color: var(--rust);
+    }
+
+    .origin-text {
+      font-size: 13px;
+      line-height: 2;
+      color: #4a4540;
+      max-width: 480px;
+    }
+
+    .origin-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .stat-block {
+      padding: 40px;
+      border: 1px solid rgba(0,0,0,0.1);
+      position: relative;
+      transition: border-color 0.3s ease;
+    }
+
+    .stat-block:hover {
+      border-color: var(--rust);
+    }
+
+    .stat-num {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 80px;
+      line-height: 1;
+      color: var(--ink);
+    }
+
+    .stat-label {
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-top: 8px;
+    }
+
+    /* WHAT WE BUILD */
+    .builds {
+      padding: 120px 48px;
+      position: relative;
+    }
+
+    .builds-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 80px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      padding-bottom: 40px;
+    }
+
+    .builds-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(50px, 6vw, 90px);
+      line-height: 1;
+      color: var(--paper);
+    }
+
+    .builds-sub {
+      font-size: 11px;
+      letter-spacing: 2px;
+      color: var(--muted);
+      text-transform: uppercase;
+      text-align: right;
+      max-width: 200px;
+    }
+
+    .build-list { display: flex; flex-direction: column; }
+
+    .build-item {
+      display: grid;
+      grid-template-columns: 80px 1fr 200px;
+      align-items: center;
+      padding: 32px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      gap: 40px;
+      transition: padding-left 0.4s ease;
+      cursor: pointer;
+    }
+
+    .build-item:hover { padding-left: 24px; }
+
+    .build-item:hover .build-name { color: var(--accent); }
+
+    .build-num {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .build-name {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(24px, 3vw, 42px);
+      color: var(--paper);
+      transition: color 0.3s ease;
+    }
+
+    .build-tag {
+      font-size: 10px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-align: right;
+    }
+
+    /* FOUNDER */
+    .founder {
+      background: var(--ink);
+      padding: 120px 48px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .founder::after {
+      content: 'OR';
+      position: absolute;
+      right: -40px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 400px;
+      color: transparent;
+      -webkit-text-stroke: 1px rgba(255,255,255,0.03);
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .founder-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .founder-tag {
+      font-size: 10px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 40px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .founder-tag::before {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 1px;
+      background: var(--accent);
+    }
+
+    .founder-name {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(50px, 6vw, 90px);
+      line-height: 0.9;
+      color: var(--paper);
+      margin-bottom: 40px;
+    }
+
+    .founder-name span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.5em;
+      letter-spacing: 4px;
+    }
+
+    .founder-bio {
+      font-size: 13px;
+      line-height: 2;
+      color: var(--muted);
+      max-width: 480px;
+    }
+
+    .founder-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 24px;
+    }
+
+    .founder-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      padding: 32px;
+      position: relative;
+      transition: border-color 0.3s ease, background 0.3s ease;
+    }
+
+    .founder-card:hover {
+      border-color: rgba(200,255,0,0.3);
+      background: rgba(200,255,0,0.04);
+    }
+
+    .founder-card-label {
+      font-size: 9px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+
+    .founder-card-val {
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px;
+      color: var(--paper);
+    }
+
+    /* MISSION BANNER */
+    .mission-banner {
+      background: var(--accent);
+      padding: 80px 48px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .mission-banner::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 20px,
+        rgba(0,0,0,0.03) 20px,
+        rgba(0,0,0,0.03) 40px
+      );
+    }
+
+    .mission-inner {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+    }
+
+    .mission-text {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(40px, 5vw, 72px);
+      line-height: 1;
+      color: var(--ink);
+      max-width: 700px;
+    }
+
+    .mission-text em {
+      font-family: 'DM Serif Display', serif;
+      font-style: italic;
+    }
+
+    .mission-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--ink);
+      color: var(--accent);
+      padding: 20px 40px;
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: gap 0.3s ease;
+      flex-shrink: 0;
+    }
+    .mission-cta:hover { gap: 24px; }
+
+    /* FOOTER */
+    footer {
+      padding: 60px 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .footer-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 20px;
+      letter-spacing: 4px;
+      color: var(--paper);
+    }
+
+    .footer-copy {
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .footer-link {
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: gap 0.3s ease;
+    }
+    .footer-link:hover { gap: 16px; }
+
+    /* ANIMATIONS */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideInLeft {
+      from { opacity: 0; transform: translateX(-60px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    .animate { opacity: 0; }
+    .animate.visible { animation: fadeUp 0.8s cubic-bezier(0.16,1,0.3,1) forwards; }
+
+    .animate-left { opacity: 0; }
+    .animate-left.visible { animation: slideInLeft 0.8s cubic-bezier(0.16,1,0.3,1) forwards; }
+
+    /* MARQUEE */
+    .marquee-wrap {
+      overflow: hidden;
+      background: rgba(255,255,255,0.04);
+      border-top: 1px solid rgba(255,255,255,0.08);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      padding: 16px 0;
+    }
+
+    .marquee-track {
+      display: flex;
+      gap: 60px;
+      animation: marquee 20s linear infinite;
+      width: max-content;
+    }
+
+    .marquee-item {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 14px;
+      letter-spacing: 4px;
+      color: var(--muted);
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 60px;
+    }
+
+    .marquee-item::after {
+      content: '◆';
+      color: var(--accent);
+      font-size: 8px;
+    }
+
+    @keyframes marquee {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      header { padding: 20px 24px; }
+
+      .hero { grid-template-columns: 1fr; }
+      .hero-right { display: none; }
+      .hero-left { padding: 120px 24px 80px; }
+
+      .section-divider { margin: 0 24px; }
+
+      .manifesto { grid-template-columns: 1fr; padding: 80px 24px; gap: 40px; }
+      .manifesto-label { writing-mode: horizontal-tb; transform: none; }
+
+      .pillars { grid-template-columns: 1fr; padding: 0 24px 80px; }
+      .pillar { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.08); }
+
+      .origin { padding: 80px 24px; }
+      .origin-grid { grid-template-columns: 1fr; gap: 40px; }
+
+      .builds { padding: 80px 24px; }
+      .build-item { grid-template-columns: 60px 1fr; gap: 20px; }
+      .build-tag { display: none; }
+
+      .founder { grid-template-columns: 1fr; padding: 80px 24px; gap: 40px; }
+
+      .mission-inner { flex-direction: column; align-items: flex-start; }
+      .mission-banner { padding: 60px 24px; }
+
+      footer { flex-direction: column; gap: 20px; text-align: center; padding: 40px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- HEADER -->
+  <header>
+    <a href="https://forresterstudio.lat" class="logo">Forrester</a>
+    <span class="header-tag">Est. 2025 — Yucatán, MX</span>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left">
+      <div class="hero-eyebrow animate" style="animation-delay:0.1s">Sobre Nosotros</div>
+      <h1 class="hero-title animate" style="animation-delay:0.2s">
+        TECHNO<br>
+        <em>LOGIA</em><br>
+        PROPIA.
+      </h1>
+    </div>
+    <div class="hero-right">
+      <p class="hero-desc animate" style="animation-delay:0.4s">
+        No somos una agencia. No somos freelancers.<br>
+        Somos un estudio que crea cosas reales —<br>
+        apps, herramientas, juegos, plataformas —<br>
+        desde cero, con propósito.
+      </p>
+      <div class="hero-year">25</div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <div class="marquee-item">Desarrollo de Software</div>
+      <div class="marquee-item">Apps Móviles</div>
+      <div class="marquee-item">Plataformas Digitales</div>
+      <div class="marquee-item">Videojuegos</div>
+      <div class="marquee-item">Inteligencia Artificial</div>
+      <div class="marquee-item">Productos Propios</div>
+      <div class="marquee-item">Desarrollo de Software</div>
+      <div class="marquee-item">Apps Móviles</div>
+      <div class="marquee-item">Plataformas Digitales</div>
+      <div class="marquee-item">Videojuegos</div>
+      <div class="marquee-item">Inteligencia Artificial</div>
+      <div class="marquee-item">Productos Propios</div>
+    </div>
+  </div>
+
+  <hr class="section-divider" />
+
+  <!-- MANIFESTO -->
+  <section class="manifesto">
+    <span class="manifesto-label animate">Manifiesto</span>
+    <div class="manifesto-content">
+      <h2 class="manifesto-headline animate">
+        Nacimos de la <strong>curiosidad.</strong><br>
+        Crecemos con <strong>código.</strong>
+      </h2>
+      <p class="manifesto-body animate">
+        Forrester Studio es un proyecto tecnológico independiente creado por Oscar Rafael. 
+        Nació de la pasión por la programación — de esas noches aprendiendo desde cero, 
+        desarmando cosas para entenderlas, y soñando con construir algo más grande.<br><br>
+        La idea siempre fue clara: no solo ofrecer servicios, sino crear tecnología propia. 
+        Aplicaciones que la gente realmente use. Herramientas que resuelvan problemas reales. 
+        Juegos que entretengan. Plataformas que conecten. Todo hecho con la misma energía 
+        con la que empezó todo: pasión genuina por el mundo digital.
+      </p>
+    </div>
+  </section>
+
+  <!-- PILLARS -->
+  <div class="pillars">
+    <div class="pillar animate">
+      <div class="pillar-num">01</div>
+      <div class="pillar-title">Independiente</div>
+      <p class="pillar-text">No dependemos de grandes corporaciones ni seguimos tendencias vacías. Tomamos nuestras propias decisiones técnicas y creativas.</p>
+    </div>
+    <div class="pillar animate" style="animation-delay:0.15s">
+      <div class="pillar-num">02</div>
+      <div class="pillar-title">Con propósito</div>
+      <p class="pillar-text">Cada cosa que construimos tiene una razón de ser. Si no hace la vida de alguien más fácil, más divertida o más conectada — no la hacemos.</p>
+    </div>
+    <div class="pillar animate" style="animation-delay:0.3s">
+      <div class="pillar-num">03</div>
+      <div class="pillar-title">Accesible</div>
+      <p class="pillar-text">La tecnología poderosa no debe ser exclusiva. Queremos que más personas — sin importar su contexto — puedan aprovechar el mundo digital.</p>
+    </div>
+  </div>
+
+  <!-- ORIGIN -->
+  <section class="origin">
+    <div class="origin-noise"></div>
+    <div class="origin-grid">
+      <div class="origin-left">
+        <div class="origin-tag animate-left">El Origen</div>
+        <h2 class="origin-big animate-left">
+          DESDE<br>
+          <span>LOS 12.</span>
+        </h2>
+        <p class="origin-text animate-left">
+          Todo empezó con tutoriales de YouTube, computadoras viejas y muchísimas preguntas. 
+          Oscar Rafael comenzó a programar a los 12 años y no paró. Con el tiempo, 
+          ese conocimiento autodidacta se convirtió en algo real: un estudio con equipo, 
+          con productos lanzados, con usuarios reales.<br><br>
+          El nombre "Forrester" viene de la idea de ser un guardián del bosque digital — 
+          alguien que conoce el territorio y guía a otros a través de él. Eso somos: 
+          exploradores y constructores al mismo tiempo.
+        </p>
+      </div>
+      <div class="origin-right">
+        <div class="stat-block animate">
+          <div class="stat-num">2025</div>
+          <div class="stat-label">Año de fundación oficial</div>
+        </div>
+        <div class="stat-block animate" style="animation-delay:0.1s">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Productos digitales lanzados</div>
+        </div>
+        <div class="stat-block animate" style="animation-delay:0.2s">
+          <div class="stat-num">10K+</div>
+          <div class="stat-label">Usuarios que ya usan nuestras apps</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE BUILD -->
+  <section class="builds">
+    <div class="builds-header">
+      <h2 class="builds-title animate">LO QUE<br>CONSTRUIMOS</h2>
+      <p class="builds-sub animate">Productos digitales con tecnología propia</p>
+    </div>
+    <div class="build-list">
+      <div class="build-item">
+        <span class="build-num">01 /</span>
+        <h3 class="build-name">Aplicaciones Móviles</h3>
+        <span class="build-tag">Android · Flutter</span>
+      </div>
+      <div class="build-item">
+        <span class="build-num">02 /</span>
+        <h3 class="build-name">Plataformas Web</h3>
+        <span class="build-tag">React · Full Stack</span>
+      </div>
+      <div class="build-item">
+        <span class="build-num">03 /</span>
+        <h3 class="build-name">Videojuegos</h3>
+        <span class="build-tag">GameMaker · Java</span>
+      </div>
+      <div class="build-item">
+        <span class="build-num">04 /</span>
+        <h3 class="build-name">Herramientas con IA</h3>
+        <span class="build-tag">Python · LLMs</span>
+      </div>
+      <div class="build-item">
+        <span class="build-num">05 /</span>
+        <h3 class="build-name">Infraestructura Digital</h3>
+        <span class="build-tag">Redes · Cloud</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDER -->
+  <section class="founder">
+    <div class="founder-left">
+      <div class="founder-tag">El Fundador</div>
+      <h2 class="founder-name animate">
+        Oscar<br>Rafael
+        <span>Pool Pech</span>
+      </h2>
+      <p class="founder-bio animate">
+        Desarrollador full-stack, autodidacta y fundador de Forrester Studio. 
+        Comenzó a programar desde joven por pura curiosidad y lo convirtió en su misión. 
+        Cree que la tecnología más poderosa es la que nace de una necesidad real — 
+        no de una junta de directivos.
+      </p>
+    </div>
+    <div class="founder-right">
+      <div class="founder-card animate">
+        <div class="founder-card-label">Especialidad</div>
+        <div class="founder-card-val">Full-Stack · IA · Producto</div>
+      </div>
+      <div class="founder-card animate" style="animation-delay:0.1s">
+        <div class="founder-card-label">Stack principal</div>
+        <div class="founder-card-val">React · Python · Flutter</div>
+      </div>
+      <div class="founder-card animate" style="animation-delay:0.2s">
+        <div class="founder-card-label">Filosofía</div>
+        <div class="founder-card-val">"Construir primero, pedir permiso después."</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION BANNER -->
+  <div class="mission-banner">
+    <div class="mission-inner">
+      <h2 class="mission-text">
+        Tecnología útil,<br>
+        <em>accesible</em><br>
+        e innovadora.
+      </h2>
+      <a href="https://forresterstudio.lat" class="mission-cta">
+        Ver Productos →
+      </a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">Forrester Studio</div>
+    <span class="footer-copy">© 2025 — Todos los derechos reservados</span>
+    <a href="https://forresterstudio.lat" class="footer-link">forresterstudio.lat →</a>
+  </footer>
+
+  <script>
+    // Cursor
+    const cursor = document.getElementById('cursor');
+    const ring = document.getElementById('cursorRing');
+    let mx = 0, my = 0, rx = 0, ry = 0;
+
+    document.addEventListener('mousemove', e => {
+      mx = e.clientX; my = e.clientY;
+      cursor.style.left = mx + 'px';
+      cursor.style.top = my + 'px';
+    });
+
+    function animateRing() {
+      rx += (mx - rx) * 0.12;
+      ry += (my - ry) * 0.12;
+      ring.style.left = rx + 'px';
+      ring.style.top = ry + 'px';
+      requestAnimationFrame(animateRing);
+    }
+    animateRing();
+
+    document.querySelectorAll('a, button, .build-item, .pillar, .stat-block, .founder-card').forEach(el => {
+      el.addEventListener('mouseenter', () => {
+        cursor.style.transform = 'translate(-50%,-50%) scale(2.5)';
+        ring.style.transform = 'translate(-50%,-50%) scale(1.5)';
+      });
+      el.addEventListener('mouseleave', () => {
+        cursor.style.transform = 'translate(-50%,-50%) scale(1)';
+        ring.style.transform = 'translate(-50%,-50%) scale(1)';
+      });
+    });
+
+    // Intersection observer for animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+
+    document.querySelectorAll('.animate, .animate-left').forEach(el => observer.observe(el));
+
+    // Stagger build items
+    document.querySelectorAll('.build-item').forEach((item, i) => {
+      item.style.transitionDelay = `${i * 0.05}s`;
+    });
+  </script>
+</body>
+</html>
